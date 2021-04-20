@@ -60,24 +60,33 @@ if d == 5:
 # # A Python program to sort three integers without using conditional statements and loops.
 # ![image.png](attachment:image.png)
 
-# In[ ]:
+# In[3]:
 
 
-
+a = 13
+b = 10
+c = 26
+w = [a, b, c]
+x = max(w)
+y = min(w)
+z = (((a + b + c)-x)-y)
+print(x)
+print(y)
+print(z)
 
 
 # # Exercise 5
 # # A Python function that takes a positive integer and returns the sum of the cube of all the positive integers smaller than the specified number.
 # ![image.png](attachment:image.png)
 
-# In[50]:
+# In[39]:
 
 
-print (range[6])
-
-
-# In[ ]:
-
-
-
+x = int(input("a number"" "))
+do = list(range(x))
+y = 0
+for i in do:
+    z = i**3
+    y = y + z
+print (y)
 
